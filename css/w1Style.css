@@ -1,0 +1,148 @@
+
+#foodimg {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 25px;
+
+  width: 90%;
+  margin: 30px auto;
+}
+
+.card {
+  aspect-ratio: 1 / 1;
+  width: 100%;
+
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  border-radius: 10px;
+ 
+
+  position: relative;
+  overflow: hidden;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.food1 {
+  background-image: url("../week1/w1images/onekinda2.jpeg");
+}
+
+.food2 {
+  background-image: url("../week1/w1images/hubbard.jpeg");
+}
+
+.food3 {
+  background-image: url("../week1/w1images/dudleys.jpeg");
+}
+
+.food4 {
+  background-image: url("../week1/w1images/beanhive.jpeg");
+}
+
+.food5 {
+  background-image: url("../week1/w1images/burnaby.jpeg");
+}
+
+.food6 {
+  background-image: url("../week1/w1images/brendan.jpeg");
+}
+
+.card::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.70);
+}
+
+.food-text {
+  position: relative;
+  z-index: 1;
+  color: rgba(240, 240, 240, 0.802);;
+  padding: 20px;
+}
+
+.food-text h3 {
+  font-family: 'DM Serif Display';
+  font-size: 32px;
+  text-align: center;
+}
+
+.food-text p {
+  font-family: 'DM Sans';
+  font-size: 18px;
+}
+
+.card:hover,
+.card:focus{
+    .food-text{color:#1F1F1F;
+    background-color: rgba(142, 132, 75, 0.80);
+    border-radius: 10px;
+    
+}
+
+}
+.card:hover::before,
+.card:focus::before
+{
+  background-color: rgba(0, 0, 0, 0.40);
+  border: 3px solid rgb(84, 120, 84);
+  border-radius: 10px;
+  transform: scale(2);
+  box-shadow: 0 6px 14px rgba(0,0,0,0.15);
+}
+
+.card:hover,
+.card:focus{
+  
+  border-radius: 10px;
+  transform: scale(1.08);
+  box-shadow: 0 6px 14px rgba(0,0,0,0.15);}
+
+
+.card{text-decoration: none;}
+
+#food {
+    text-align: center;
+    color:rgba(240, 240, 240, 0.802);
+    font-size: 150%;
+}
+
+
+.activity1 {
+  background-image: url("../week1/w1images/greystonevisit.jpeg");
+}
+
+.activity2 {
+  background-image: url("../week1/w1images/pub.jpeg");
+}
+
+.activity3 {
+  background-image: url("../week1/w1images/stephens.jpeg");
+}
+
+.activity4 {
+  background-image: url("../week1/w1images/stpatricks.jpeg");
+}
+
+.activity5 {
+  background-image: url("../week1/w1images/malahideCastle.jpeg");
+}
+
+.activity6 {
+  background-image: url("../week1/w1images/howthwalk.jpeg");
+}
+@media screen and (max-width: 700px){
+   #foodimg {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 25px;
+
+  width: 90%;
+  margin: 30px auto;
+} 
+}
