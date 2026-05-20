@@ -37,27 +37,27 @@
 }
 
 .food1 {
-  background-image: url("../week1/w1images/onekinda2.jpeg");
+  background-image: url("../week2/w2images/darkey.jpeg");
 }
 
 .food2 {
-  background-image: url("../week1/w1images/hubbard.jpeg");
+  background-image: url("../week2/w2images/genos.jpeg");
 }
 
 .food3 {
-  background-image: url("../week1/w1images/dudleys.jpeg");
+  background-image: url("../week2/w2images/martello.jpeg");
 }
 
 .food4 {
-  background-image: url("../week1/w1images/beanhive.jpeg");
+  background-image: url("../week2/w2images/pasta.jpeg");
 }
 
 .food5 {
-  background-image: url("../week1/w1images/burnaby.jpeg");
+  background-image: url("../week2/w2images/thai.jpeg");
 }
 
 .food6 {
-  background-image: url("../week1/w1images/brendan.jpeg");
+  background-image: url("../week2/w2images/thequay.jpeg");
 }
 
 .card::before {
@@ -132,27 +132,27 @@
 
 
 .activity1 {
-  background-image: url("../week1/w1images/greystonevisit.jpeg");
+  background-image: url("../week2/w2images/moher.jpeg");
 }
 
 .activity2 {
-  background-image: url("../week1/w1images/pub.jpeg");
+  background-image: url("../week2/w2images/drag.jpeg");
 }
 
 .activity3 {
-  background-image: url("../week1/w1images/stephens.jpeg");
+  background-image: url("../week2/w2images/storehouse.jpeg");
 }
 
 .activity4 {
-  background-image: url("../week1/w1images/stpatricks.jpeg");
+  background-image: url("../week2/w2images/galway.jpeg");
 }
 
 .activity5 {
-  background-image: url("../week1/w1images/malahideCastle.jpeg");
+  background-image: url("../week2/w2images/bray.jpeg");
 }
 
 .activity6 {
-  background-image: url("../week1/w1images/howthwalk.jpeg");
+  background-image: url("../week2/w2images/computer.jpeg");
 }
 @media screen and (max-width: 700px){
    #foodimg, #activityimg {
